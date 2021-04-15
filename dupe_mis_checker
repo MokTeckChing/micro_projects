@@ -1,3 +1,5 @@
+# explanation: this is a quick set of functions written to show the differences between two sets of data based on the column "token". For this function to work, it is best if "tokens" are unique.
+
 #function to extract missing rows and equalize datasets
 
 def de_dupe_clean(df1, df2, namecol, token):
